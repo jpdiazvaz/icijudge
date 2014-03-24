@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> ICI-Judge </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="estilo.css" rel="stylesheet">
+	<script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"> </script>
+</head>
+
+<body>
+	<!-- NAVBAR -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+          		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Project name</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+				<form class="navbar-form navbar-right">
+					<input type="text" class="form-control" placeholder="Search...">
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- CONTAINER -->
+	<div class="container-fluid">
+		<div class="row">
+			<!-- MENU -->
+			<div class="col-sm-3 col-md-2 sidebar">
+				<!-- LOGIN -->
+				<ul class="nav nav-sidebar">
+					<form role="form">
+						<div class="form-group">
+							<label for="mail">Correo Electrónico</label>
+							<input type="email" class="form-control input-sm" id="mail" placeholder="Correo Electrónico">
+						</div>
+						<div class="form-group">
+							<label for="password">Contraseña</label>
+							<input type="password" class="form-control input-sm" id="password" placeholder="Contraseña">
+						</div>
+						<button type="submit" class="btn btn-default">Iniciar Sesión</button>
+					</form>
+				</ul>
+				<hr/>
+				<ul class="nav nav-sidebar">
+					<li class="active">
+						<a href="#">Menu</a>
+					</li>
+				</ul>
+			</div>
+			<!-- PANEL -->
+			<div class="col-sm-9 col-md-offset-3 col-md-10 col-md-offset-2 main">
+				{{!base}}
+			</div>
+		</div>
+	</div>
+
+    <div id="footer">
+        <hr/>
+        <div class="container">
+            <p class="text-muted credit">
+            	ICI-Judge 
+            	<a href="mailto:jpdiazvaz@gmail.com">jpdiazvaz@gmail.com</a>
+            </p>
+        </div>
+    </div> 
+</body>
+</html>
